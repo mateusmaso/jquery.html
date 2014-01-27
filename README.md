@@ -1,7 +1,7 @@
 jquery.html
 ===========
 
-## Javascript DSL
+### Javascript DSL
 
 ```javascript
 $('body').$div(function() {
@@ -14,7 +14,7 @@ $('body').$div(function() {
 });
 ```
 
-## Coffeescript DSL
+### Coffeescript DSL
 
 ```coffeescript
 $('body').$div ->
@@ -25,7 +25,7 @@ $('body').$div ->
     @$li "Three"
 ```
 
-## HTML result
+### HTML result
 
 ```html
 <body>
