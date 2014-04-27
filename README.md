@@ -1,6 +1,15 @@
 jquery.html
 ===========
 
+This library is an extension for jQuery which allows to write HTML documents using Javascript or Coffeescript reducing the visual polution while creating elements dynamically.
+
+## Features
+
+* Build node trees using tag methods.
+* Supports attributes and string content.
+
+## Examples
+
 ### Javascript DSL
 
 ```javascript
@@ -25,7 +34,7 @@ $('body').$div ->
     @$li "Three"
 ```
 
-### HTML result
+### Expected result
 
 ```html
 <body>
@@ -39,3 +48,7 @@ $('body').$div ->
   </div>
 </body>
 ```
+
+## License
+
+Copyright (c) 2012-2014 Mateus Maso. Released under an MIT license.
