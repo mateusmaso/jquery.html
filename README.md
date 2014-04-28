@@ -1,7 +1,7 @@
 jquery.html
 ===========
 
-This library is an extension for jQuery which allows to write HTML documents using Javascript or Coffeescript reducing the visual polution while creating elements dynamically.
+This library is an extension for jQuery which allows writing HTML using Javascript or Coffeescript, reducing visual polution while creating elements dynamically.
 
 ## Features
 
