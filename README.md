@@ -6,7 +6,7 @@ This library is an extension for jQuery which allows writing HTML using Javascri
 ## Features
 
 * Build node trees using tag methods.
-* Supports attributes and string content.
+* Attributes and string content support.
 
 ## Dependencies
 
