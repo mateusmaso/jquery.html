@@ -8,6 +8,10 @@ This library is an extension for jQuery which allows to write HTML documents usi
 * Build node trees using tag methods.
 * Supports attributes and string content.
 
+## Dependencies
+
+* jquery.js (>= 2.0)
+
 ## Examples
 
 ### Javascript DSL
