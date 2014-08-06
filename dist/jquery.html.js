@@ -1,4 +1,23 @@
-(function($) {
+// jquery.html
+// -----------
+// v0.1.0
+//
+// Copyright (c) 2013-2014 Mateus Maso
+// Distributed under MIT license
+//
+// http://github.com/mateusmaso/jquery.html
+
+(function(root, factory) {
+
+  if (typeof exports !== 'undefined') {
+    if (typeof module !== 'undefined' && module.exports)
+      module.exports = factory(global.$);
+    exports = factory(global.$);
+  } else {
+    factory(root.$);
+  }
+
+}(this, function($) {
 
   var tags = ['html', 'head', 'title', 'base', 'link', 'meta', 'style', 'script',
       'noscript', 'body', 'body', 'section', 'nav', 'article', 'aside', 'h1', 'h2',
@@ -17,9 +36,9 @@
       'menuitem', 'menu'];
 
   var properties = ['async', 'autofocus', 'checked', 'location', 'multiple', 'readOnly',
-      'selected', 'selectedIndex', 'tagName', 'nodeName', 'nodeType', 'ownerDocument', 
+      'selected', 'selectedIndex', 'tagName', 'nodeName', 'nodeType', 'ownerDocument',
       'defaultChecked', 'defaultSelected'];
-  
+
   var setAttribute = function(element, attribute, value) {
     if (attribute == 'value') {
       element.val(value);
@@ -52,9 +71,9 @@
       } else {
         element.html(contents);
       }
-      
+
       $(this).append(element);
     };
   });
 
-})(jQuery);
+}));

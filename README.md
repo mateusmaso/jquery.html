@@ -1,4 +1,4 @@
-jquery.html
+jquery.html [![Build Status](https://travis-ci.org/mateusmaso/jquery.html.svg?branch=master)](https://travis-ci.org/mateusmaso/jquery.html)
 ===========
 
 This library is an extension for jQuery which allows writing HTML using Javascript or Coffeescript, reducing visual polution while creating elements dynamically.
@@ -10,7 +10,7 @@ This library is an extension for jQuery which allows writing HTML using Javascri
 
 ## Dependencies
 
-* jquery.js (>= 2.0)
+* jquery.js (>= 2.1)
 
 ## Examples
 
