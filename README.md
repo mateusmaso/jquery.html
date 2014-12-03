@@ -1,16 +1,16 @@
 jquery.html [![Build Status](https://travis-ci.org/mateusmaso/jquery.html.svg?branch=master)](https://travis-ci.org/mateusmaso/jquery.html)
 ===========
 
-This library is an extension for jQuery which allows writing HTML using Javascript or Coffeescript, reducing visual polution while creating elements dynamically.
+This library is an extension for jQuery which allows writing HTML using Javascript or Coffeescript, reducing the visual pollution while creating elements dynamically.
 
 ## Features
 
-* Build node trees using tag methods.
+* Build node trees using tag as methods.
 * Attributes and string content support.
 
 ## Dependencies
 
-* jquery.js (>= 2.1)
+* jquery.js (>= 2.1.0)
 
 ## Examples
 

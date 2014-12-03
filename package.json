@@ -1,7 +1,7 @@
 {
   "name": "jquery.html",
   "description": "jQuery plugin for building declarative HTML tags with imperative code",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "mateusmaso",
   "keywords": ["jquery", "javascript", "html", "dsl"],
   "devDependencies": {
